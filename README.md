@@ -85,3 +85,5 @@ git branch --merged
 # rebasar ramas
 git checkout rama-secundaria
 git rebase rama-principal
+
+estamos
