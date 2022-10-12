@@ -47,3 +47,41 @@ Para repositorios existentes
 git branch -M main
 git remote add origin https://github.com/usuario/repositorio.git
 git push -u origin main
+
+
+//////
+Clonar repositorios
+
+git clone https://github.com/usuario/repositorio.git
+
+//////
+
+git branch nombre-rama
+
+# cambiar de rama
+git checkout nombre-rama
+
+# crear una rama y cambiarte a ella
+git checkout -b rama
+
+# eliminar rama
+git branch -d nombre-rama
+
+# eliminar ramas remotas
+git push origin --delete nombre-rama
+
+#eliminar rama (forzado)
+git branch -D nombre-rama
+
+# listar todas las ramas del repositorio
+git branch
+
+# lista ramas no fusionadas a la rama actual
+git branch --no-merged
+
+# lista ramas fusionadas a la rama actual
+git branch --merged
+
+# rebasar ramas
+git checkout rama-secundaria
+git rebase rama-principal
