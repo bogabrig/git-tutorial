@@ -1,4 +1,5 @@
 Curso de Git / Github Jonmircha
+https://jonmircha.com//git
 
 git --version
 git config --global user.name "Jonathan MirCha"
@@ -25,3 +26,24 @@ ls para listar
 git init
 git add .
 git commit -m "mensaje del commit"
+
+
+////////////////////
+# se agrega el origen remoto de tu repositorio de GitHub
+git remote add origin https://github.com/usuario/repositorio.git
+# la primera vez que vinculamos el repositorio remoto con el local
+git push -u origin master
+# para las subsecuentes actualizaciones, sino cambias de rama
+git push
+
+
+#para descargar los cambios del repositorio remoto al local
+git pull
+
+
+/////////////////
+Para repositorios existentes
+
+git branch -M main
+git remote add origin https://github.com/usuario/repositorio.git
+git push -u origin main
