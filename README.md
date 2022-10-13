@@ -87,3 +87,6 @@ git checkout rama-secundaria
 git rebase rama-principal
 
 estamos
+
+hacer push en remoto
+git push -u origin rama-a-subir
