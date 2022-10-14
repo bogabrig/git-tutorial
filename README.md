@@ -88,10 +88,10 @@ git rebase rama-principal
 
 estamos
 
-#hacer push en remoto
+# hacer push en remoto
 git push -u origin rama-a-subir
 
-#merge de ramas
+# merge de ramas
 Nos posicionamos en la rama main (principal)
 desde ahi hacemos 
 git merge rama-a-fusionar
