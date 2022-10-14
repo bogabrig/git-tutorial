@@ -98,3 +98,10 @@ git merge rama-a-fusionar
 
 luego hacemos el push final para subir a remoto
 git push -u origin rama-a-subir
+
+# traer una rama  desde remoto (en este caso la rama es html)
+git checkout -b html  origin/html
+
+
+# borrar rama remota en este caso es css
+git push origin --delete css
